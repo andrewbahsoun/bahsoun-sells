@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-const phoneNumber = "+19496303042";
-const phoneDisplay = "+1 949 630 3042";
+const phoneNumber = "+19495704204";
+const phoneDisplay = "+1 949 570 4204";
 const emailAddress = "sales@bahsounsells.com";
 
 export default function Home() {

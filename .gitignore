@@ -23,7 +23,14 @@
 
 # misc
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 *.pem
 
 # debug
@@ -32,6 +39,7 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 *.log
+logs/
 
 # env files
 .env*
@@ -50,7 +58,26 @@ next-env.d.ts
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+.fleet
+.history
+*.swp
+*.swo
+*.swn
 
 # cache
 .eslintcache
 .turbo
+.cache/
+.parcel-cache/
+.npm/
+.pnpm-store/
+
+# generated artifacts
+storybook-static/
+*.tgz
+
+# runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
